@@ -106,9 +106,120 @@ a, a:hover, a:focus {
   width: 200px;
   height: 30px;
   font-size: 10px;
-  
+
 }
 .search-container form button{
   height: 30px;
 }
 /* serch bar ends */
+
+._postcardtop{
+  margin: 20px 0px 0px 10px ;
+  width: 100px;
+background-color: #d94c4d ;
+border-radius: 100% 100% 0 0 ; /* for the curve */
+box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+display: flex;
+flex-direction: column;
+overflow: hidden;
+}
+/* date of post */
+._postdate{
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+
+}
+/* avatarimage */
+ .avatarimage {
+   border-radius: 50%;
+  width: 50px;
+  height: 50px ;
+}
+/* username of post */
+._username{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 5px;
+
+}
+/* address of post */
+._cardaddressholder{
+
+margin-top:8px;
+}
+._cardaddress{
+background-color: #292c32 ;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+padding: 5px;
+}
+
+._postaddress
+{
+  width: 100%;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
+
+._postcard{
+  margin: 0px 0px 0px 0px ;
+  padding: 15px;
+}
+
+/* bottom of the card containg posts */
+._postcardbottom{
+
+text-align: center;
+margin:  10px 0 0 0;
+}
+
+._postbottom{
+text-align: center;
+  background-color: #d94c4d ;
+color: white;
+
+
+}
+._postbottomholder{
+  border-top: none;
+  border: 8px solid white;
+  background-color: #d94c4d ;
+  margin: 0px;
+  padding: 5px;
+}
+
+/* body of the post */
+
+._cardiconsholder{
+  padding: 5px;
+  margin: 20px 0 20px 5px;
+}
+._cardicons{
+
+}
+._cardiconsconunter{
+  color: #d94c4d;
+  margin: 0 12px 0 2px;
+}
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+/* price of the rent  */
+._postpriceholder{
+  margin: 10px 0 0px 0 ;
+}
+._postprice{
+  padding: 10px;
+  color: #292c32;
+  font-size: 3em;
+  font-family: 'Pacifico', cursive;
+  font-weight: bolder;
+}
