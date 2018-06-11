@@ -1,2 +1,2 @@
- 1. 
+ 1. remove dummy class/space from footer.html 
  2.
