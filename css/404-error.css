@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Eater");
 body {
+  -webkit-overflow: hidden !important;
+  -moz-overflow: hidden !important;
+  -ms-overflow: hidden !important;
+  overflow: hidden !important;
   background-color: white; }
 
 .content {

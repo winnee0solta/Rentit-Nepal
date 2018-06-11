@@ -1,6 +1,14 @@
 @import 'reset';
 @import url('https://fonts.googleapis.com/css?family=Eater');
+
+@mixin overflow($value) {
+  -webkit-overflow: $value!important;
+     -moz-overflow: $value!important;
+      -ms-overflow: $value!important;
+      overflow: $value !important;
+}
 body{
+  @include overflow(hidden);
   background-color: white;
 }
 
