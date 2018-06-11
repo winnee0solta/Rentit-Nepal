@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Jua');
+
+// mixins
+@mixin transition($value) {
+  -webkit-transition: $value;
+     -moz-transition: $value;
+      -ms-transition: $value;
+      -o-transition: $value;
+      transition: $value ;
+}
+
+%padding-for-each-container{
+  padding: 20px;
+}
+._footer{
+  font-family: 'Jua', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #292c32;
+  color: #efefef;
+
+  h2{
+    font-size: 2.6rem;
+  }
+
+//intro to Rentit
+.intro{
+  @extend %padding-for-each-container;
+
+  img{
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+  }
+
+  p{
+    margin: 20px 0 10px 0;
+    text-align: justify;
+    width: 200px;
+  }
+}
+
+  // company
+  .company-details{
+    @extend %padding-for-each-container;
+
+    ul{
+      padding: 5px;
+      margin: 10px 0 0 20px;
+      li{
+        a{
+          text-decoration: none;
+          color: #efefef;
+        }
+        a:hover{
+          color: #d94c4d;
+          @include transition(ease-in-out 0.7s);
+        }
+      }
+
+    }
+  }
+
+  // for contact-us
+  .contact-us{
+    @extend %padding-for-each-container;
+
+    ._socialfeeds{
+      margin: 20px 0 20px 0 ;
+      table
+      {
+        margin: 20px 0 20px 0 ;
+      }
+      a i {
+        padding-right: 6px;
+        text-decoration: none;
+        color: #d94c4d;
+      }
+      i:hover{
+        @include transition(ease-in-out 0.6s);
+        color: #efefef;
+      }
+    }
+  }
+}
+
+// for copyright
+.copy-right-tag{
+  font-family: 'Jua', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 700;
+}

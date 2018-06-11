@@ -7,6 +7,7 @@
       -ms-overflow: $value!important;
       overflow: $value !important;
 }
+
 body{
   @include overflow(hidden);
   background-color: white;
@@ -15,6 +16,7 @@ body{
 .content{
   padding: 20px;
 }
+
 .bg-404-error {
   padding: 10px;
   img{
@@ -22,8 +24,8 @@ body{
     padding: 10px;
     margin:20px 0 0 0 ;
   }
-
 }
+
 .error-text{
     margin: 20px 0 0 0 ;
   span{
