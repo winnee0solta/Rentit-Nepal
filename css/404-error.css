@@ -2,14 +2,23 @@
 body {
   background-color: white; }
 
-.bg-404-error img {
-  width: 600px;
-  padding: 10px;
+.content {
+  padding: 20px; }
+
+.bg-404-error {
+  padding: 10px; }
+  .bg-404-error img {
+    width: 600px;
+    padding: 10px;
+    margin: 20px 0 0 0; }
+
+.error-text {
   margin: 20px 0 0 0; }
-.bg-404-error span {
-  text-align: center;
-  font-size: 40px;
-  font-weight: 700;
-  font-family: 'Eater', cursive; }
+  .error-text span {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Eater', cursive; }
 
 /*# sourceMappingURL=404-error.css.map */
