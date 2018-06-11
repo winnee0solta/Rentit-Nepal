@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,aAAc;EACZ,gBAAgB,EAAE,uBAAuB",
+"sources": ["../sass/404-error.scss"],
+"names": [],
+"file": "404-error.css"
+}

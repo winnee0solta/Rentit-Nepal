@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Eater");
+body {
+  background-color: white; }
+
+.bg-404-error img {
+  width: 600px;
+  padding: 10px;
+  margin: 20px 0 0 0; }
+.bg-404-error span {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Eater', cursive; }
+
+/*# sourceMappingURL=404-error.css.map */
