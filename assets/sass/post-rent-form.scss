@@ -1,0 +1,142 @@
+@import 'reset';
+
+body{
+  background-color: #efefef;
+}
+
+._card
+{
+  display: flex;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 30px;
+
+}
+
+.main-form-container{
+
+  .icon-container{
+    margin: 10px 0 10px 0;
+  }
+  .field-titles{
+    font-size: 16px;
+  }
+  // locality
+  .locality{
+    margin: 10px 0 10px 0;
+    a{
+      color: black;
+      font-size: 20px;
+    }
+
+  }
+
+  // for bhk and type
+  .bhk-type{
+    margin: 10px 0 10px 0;
+
+      .bhk{
+
+        .bhk-inputfield{
+          margin-bottom: 15px;
+        }
+      }
+
+      .type{
+          margin:10px 0 10px 0;
+        .type-dropdown-container{
+                margin:10px 0 10px 0;
+              }
+      }
+
+
+
+  }
+
+  // for furnishing and area
+  .furnishing-area{
+    margin: 10px 0 10px 0;
+
+    .furnishing{
+        margin:10px 0 10px 0;
+
+      .furnishing-dropdown-container{
+margin:10px 0 10px 0;
+            }
+    }
+
+      .area{
+
+        .area-inputfield{
+          margin-bottom: 15px;
+        }
+      }
+
+
+
+
+  }
+
+
+
+
+}
+
+//
+//
+// <!-- for furnishing and area -->
+// <div class="furnishing-area">
+//   <div class="row">
+//
+//     <!-- area -->
+//     <div class="col-md-2 pd-0 md-0 icon-container">
+//       <!-- icon -->
+//       <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+//       <span class="field-titles">Area</span>
+//     </div>
+//     <div class="col-md-4 pd-0 md-0 bhk-inputfield">
+//       <input type="text" class="form-control">
+//     </div>
+//
+//     <!-- furnishing  -->
+//       <div class="col-md-6 furnishing">
+//         <!-- icon -->
+//         <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+//         <span class="field-titles">Furnishing</span>
+//         <!-- dropdown -->
+//         <div class="dropdown furnishing-dropdown-container">
+//           <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+//             Select type
+//           </button>
+//           <div class="dropdown-menu">
+//             <a class="dropdown-item" href="#">Furnished</a>
+//             <a class="dropdown-item" href="#">UnFurnished</a>
+//
+//           </div>
+//         </div>
+//       </div>
+//
+//       <!-- type  -->
+//         <div class="col-md-6 type">
+//           <!-- icon -->
+//           <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+//           <span class="field-titles">Type</span>
+//           <!-- dropdown -->
+//           <div class="dropdown type-dropdown-container">
+//             <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+//               Select type
+//             </button>
+//             <div class="dropdown-menu">
+//               <a class="dropdown-item" href="#">Apartment</a>
+//               <a class="dropdown-item" href="#">Link 2</a>
+//               <a class="dropdown-item" href="#">Link 3</a>
+//             </div>
+//           </div>
+//         </div>
+//
+//   </div>
+// </div>

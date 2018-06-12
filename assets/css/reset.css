@@ -6,4 +6,10 @@ body, html {
   margin-left: 0px;
   margin-right: 0px; }
 
+.pd-0 {
+  padding: 0px; }
+
+.md-0 {
+  margin: 0px; }
+
 /*# sourceMappingURL=reset.css.map */
