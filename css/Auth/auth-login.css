@@ -55,6 +55,7 @@ body, html {
           font-size: 12px;
           font-weight: bolder; }
         .auth-container .login-form-container .login-form .form-group input {
+          color: rgba(255, 255, 255, 0.65);
           border: 0.5px solid #efefef;
           background-color: #282828; }
         .auth-container .login-form-container .login-form .form-group input:hover {

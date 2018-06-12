@@ -1,2 +1,2 @@
- 1. remove dummy class/space from footer.html 
- 2.
+ 1. remove dummy class/space from footer.html
+ 2.need to update links in pages.
