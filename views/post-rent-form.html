@@ -16,10 +16,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
   <!-- fontawesome cdn -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-<!--===============================================================================================-->
-<!-- popper.js -->
-<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
-<!--===============================================================================================-->
+  <!--===============================================================================================-->
+  <!-- popper.js -->
+  <script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+  <!--===============================================================================================-->
 </head>
 <body>
 
@@ -67,46 +67,46 @@
               </div>
             </div>
 
-              <!-- type  -->
+            <!-- type  -->
             <div class="row type">
-                  <div class="col-md-2 pd-0 md-0">
-                    <!-- icon -->
-                    <a href=""><i class="fas fa-map-marker "  title=""></i></a>
-                    <span class="field-titles">Type</span>
-                  </div>
-                  <div class="col-md-4 col-md-2 pd-0 md-0">
-                    <!-- select type -->
-                    <div class="form-group type-dropdown-container">
-                          <select class="form-control" id="sel1" name="sellist1">
-                            <option>Apartment</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                          </select>
-                      </div>
-                  </div>
+              <div class="col-md-2 pd-0 md-0">
+                <!-- icon -->
+                <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+                <span class="field-titles">Type</span>
+              </div>
+              <div class="col-md-4 col-md-2 pd-0 md-0">
+                <!-- select type -->
+                <div class="form-group type-dropdown-container">
+                  <select class="form-control" id="sel1" name="sellist1">
+                    <option>Apartment</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                  </select>
+                </div>
+              </div>
             </div>
           </div>
 
           <!-- for furnishing and area -->
           <div class="furnishing-area">
             <!-- furnishing  -->
-          <div class="row furnishing">
-                <div class="col-md-2 pd-0 md-0">
-                  <!-- icon -->
-                  <a href=""><i class="fas fa-map-marker "  title=""></i></a>
-                  <span class="field-titles">Furnishing</span>
+            <div class="row furnishing">
+              <div class="col-md-2 pd-0 md-0">
+                <!-- icon -->
+                <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+                <span class="field-titles">Furnishing</span>
+              </div>
+              <div class="col-md-4 col-md-2 pd-0 md-0">
+                <!-- select furnishing type-->
+                <div class="form-group furnishing-dropdown-container">
+                  <select class="form-control" id="sel1" name="sellist1">
+                    <option>UnFurnished</option>
+                    <option>Furnished</option>
+                  </select>
                 </div>
-                <div class="col-md-4 col-md-2 pd-0 md-0">
-                  <!-- select furnishing type-->
-                  <div class="form-group furnishing-dropdown-container">
-                        <select class="form-control" id="sel1" name="sellist1">
-                          <option>UnFurnished</option>
-                          <option>Furnished</option>
-                        </select>
-                    </div>
-                </div>
-          </div>
+              </div>
+            </div>
             <!-- area -->
             <div class="row area">
               <div class="col-md-2 pd-0 md-0 icon-container">
@@ -121,7 +121,44 @@
           </div>
 
           <!-- tenants -->
-
+          <div class="tenants">
+            <div class="row">
+              <div class="col-md-2 pd-0 md-0 tenants-icon-container">
+                <!-- icon -->
+                <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+                <span class="field-titles">Tenants</span>
+              </div>
+              <div class="col-md-8 pd-0 md-0 rent-inputfield">
+                <!-- checkboxes -->
+                <div class="check-boxes">
+                  <!-- family -->
+                  <div class="form-check-inline">
+                    <label class="form-check-label" for="check1">
+                      <input type="checkbox" class="form-check-input" id="check1" name="family" value="Family" checked>Family
+                    </label>
+                  </div>
+                  <!-- bachelors -->
+                  <div class="form-check-inline">
+                    <label class="form-check-label" for="check2">
+                      <input type="checkbox" class="form-check-input" id="check2" name="bachelors" value="Family" checked>Bachelors
+                    </label>
+                  </div>
+                  <!-- company -->
+                  <div class="form-check-inline">
+                    <label class="form-check-label" for="check3">
+                      <input type="checkbox" class="form-check-input" id="check3" name="company" value="Company" checked>Company
+                    </label>
+                  </div>
+                  <!-- Any -->
+                  <div class="form-check-inline">
+                    <label class="form-check-label" for="check4">
+                      <input type="checkbox" class="form-check-input" id="check4" name="any" value="Any" checked>Any
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <!-- rent deposit-->
           <div class="rent-deposit">
@@ -138,11 +175,11 @@
               <div class="col-md-4 pd-0 md-0">
                 <!-- select -->
                 <div class="form-group rent-dropdown-container">
-                      <select class="form-control" id="sel1" name="sellist1">
-                        <option>Fixed</option>
-                        <option>Negotiable</option>
-                      </select>
-                  </div>
+                  <select class="form-control" id="sel1" name="sellist1">
+                    <option>Fixed</option>
+                    <option>Negotiable</option>
+                  </select>
+                </div>
               </div>
             </div>
             <!-- deposit -->

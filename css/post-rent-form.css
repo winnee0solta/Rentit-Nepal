@@ -50,5 +50,17 @@ body {
       margin: 10px 0 10px 0; }
   .main-form-container .furnishing-area .area .area-inputfield {
     margin-bottom: 15px; }
+.main-form-container .tenants {
+  margin: 10px 0 10px 0; }
+  .main-form-container .tenants .tenants-icon-container {
+    margin: 10px 0 10px 0; }
+  .main-form-container .tenants .check-boxes {
+    margin: 10px 0 10px 0; }
+.main-form-container .rent-deposit {
+  margin: 10px 0 10px 0; }
+  .main-form-container .rent-deposit .rent {
+    margin: 10px 0 10px 0; }
+  .main-form-container .rent-deposit .deposit {
+    margin: 10px 0 10px 0; }
 
 /*# sourceMappingURL=post-rent-form.css.map */
