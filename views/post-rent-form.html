@@ -75,16 +75,14 @@
                     <span class="field-titles">Type</span>
                   </div>
                   <div class="col-md-4 col-md-2 pd-0 md-0">
-                      <!-- dropdown -->
-                      <div class="dropdown type-dropdown-container">
-                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                          Select type
-                        </button>
-                        <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#">Apartment</a>
-                          <a class="dropdown-item" href="#">Link 2</a>
-                          <a class="dropdown-item" href="#">Link 3</a>
-                        </div>
+                    <!-- select type -->
+                    <div class="form-group type-dropdown-container">
+                          <select class="form-control" id="sel1" name="sellist1">
+                            <option>Apartment</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                          </select>
                       </div>
                   </div>
             </div>
@@ -100,15 +98,12 @@
                   <span class="field-titles">Furnishing</span>
                 </div>
                 <div class="col-md-4 col-md-2 pd-0 md-0">
-                    <!-- dropdown -->
-                    <div class="dropdown furnishing-dropdown-container">
-                      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                        Select type
-                      </button>
-                      <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Furnished</a>
-                        <a class="dropdown-item" href="#">UnFurnished</a>
-                      </div>
+                  <!-- select furnishing type-->
+                  <div class="form-group furnishing-dropdown-container">
+                        <select class="form-control" id="sel1" name="sellist1">
+                          <option>UnFurnished</option>
+                          <option>Furnished</option>
+                        </select>
                     </div>
                 </div>
           </div>
@@ -123,8 +118,44 @@
                 <input type="text" class="form-control">
               </div>
             </div>
+          </div>
+
+          <!-- tenants -->
 
 
+          <!-- rent deposit-->
+          <div class="rent-deposit">
+            <!-- rent price -->
+            <div class="row rent">
+              <div class="col-md-2 pd-0 md-0 icon-container">
+                <!-- icon -->
+                <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+                <span class="field-titles">Rent Price</span>
+              </div>
+              <div class="col-md-2 pd-0 md-0 rent-inputfield">
+                <input type="number" class="form-control">
+              </div>
+              <div class="col-md-4 pd-0 md-0">
+                <!-- select -->
+                <div class="form-group rent-dropdown-container">
+                      <select class="form-control" id="sel1" name="sellist1">
+                        <option>Fixed</option>
+                        <option>Negotiable</option>
+                      </select>
+                  </div>
+              </div>
+            </div>
+            <!-- deposit -->
+            <div class="row deposit">
+              <div class="col-md-2 pd-0 md-0 icon-container">
+                <!-- icon -->
+                <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+                <span class="field-titles">Deposit</span>
+              </div>
+              <div class="col-md-4 pd-0 md-0 deposit-inputfield">
+                <input type="number" class="form-control">
+              </div>
+            </div>
           </div>
 
 

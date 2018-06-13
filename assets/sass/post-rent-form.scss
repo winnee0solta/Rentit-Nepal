@@ -52,9 +52,6 @@ body{
                 margin:10px 0 10px 0;
               }
       }
-
-
-
   }
 
   // for furnishing and area
@@ -63,27 +60,31 @@ body{
 
     .furnishing{
         margin:10px 0 10px 0;
-
       .furnishing-dropdown-container{
-margin:10px 0 10px 0;
+            margin:10px 0 10px 0;
             }
     }
 
       .area{
-
         .area-inputfield{
-          margin-bottom: 15px;
-        }
+            margin-bottom: 15px;
+          }
       }
-
-
-
-
   }
 
+  // for tenants
 
+  //for rent deposite
+      .rent-deposit{
+        margin: 10px 0 10px 0;
 
-
+          .rent{
+  margin:10px 0 10px 0;
+          }
+          .deposit{
+              margin:10px 0 10px 0;
+          }
+      }
 }
 
 //
