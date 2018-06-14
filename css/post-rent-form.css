@@ -62,5 +62,17 @@ body {
     margin: 10px 0 10px 0; }
   .main-form-container .rent-deposit .deposit {
     margin: 10px 0 10px 0; }
+.main-form-container .description {
+  margin: 10px 0 10px 0; }
+.main-form-container .owner-details {
+  margin: 10px 0 10px 0; }
+  .main-form-container .owner-details .details-contacts {
+    padding: 20px; }
+.main-form-container .other-facilities {
+  margin: 10px 0 10px 0; }
+  .main-form-container .other-facilities .other-facilities-icon-checkbox-container {
+    margin: 10px 0 10px 0; }
+    .main-form-container .other-facilities .other-facilities-icon-checkbox-container .check-box-container {
+      margin: 0 0 0 10px; }
 
 /*# sourceMappingURL=post-rent-form.css.map */

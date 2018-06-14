@@ -94,59 +94,34 @@ body{
               margin:10px 0 10px 0;
           }
       }
-}
 
-//
-//
-// <!-- for furnishing and area -->
-// <div class="furnishing-area">
-//   <div class="row">
-//
-//     <!-- area -->
-//     <div class="col-md-2 pd-0 md-0 icon-container">
-//       <!-- icon -->
-//       <a href=""><i class="fas fa-map-marker "  title=""></i></a>
-//       <span class="field-titles">Area</span>
-//     </div>
-//     <div class="col-md-4 pd-0 md-0 bhk-inputfield">
-//       <input type="text" class="form-control">
-//     </div>
-//
-//     <!-- furnishing  -->
-//       <div class="col-md-6 furnishing">
-//         <!-- icon -->
-//         <a href=""><i class="fas fa-map-marker "  title=""></i></a>
-//         <span class="field-titles">Furnishing</span>
-//         <!-- dropdown -->
-//         <div class="dropdown furnishing-dropdown-container">
-//           <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-//             Select type
-//           </button>
-//           <div class="dropdown-menu">
-//             <a class="dropdown-item" href="#">Furnished</a>
-//             <a class="dropdown-item" href="#">UnFurnished</a>
-//
-//           </div>
-//         </div>
-//       </div>
-//
-//       <!-- type  -->
-//         <div class="col-md-6 type">
-//           <!-- icon -->
-//           <a href=""><i class="fas fa-map-marker "  title=""></i></a>
-//           <span class="field-titles">Type</span>
-//           <!-- dropdown -->
-//           <div class="dropdown type-dropdown-container">
-//             <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-//               Select type
-//             </button>
-//             <div class="dropdown-menu">
-//               <a class="dropdown-item" href="#">Apartment</a>
-//               <a class="dropdown-item" href="#">Link 2</a>
-//               <a class="dropdown-item" href="#">Link 3</a>
-//             </div>
-//           </div>
-//         </div>
-//
-//   </div>
-// </div>
+      // <!-- expires in -->
+
+      // <!-- description -->
+      .description{
+          margin: 10px 0 10px 0;
+      }
+      // <!-- owner details -->
+        .owner-details{
+            margin: 10px 0 10px 0;
+
+            .details-contacts{
+              padding: 20px;
+            }
+        }
+      // <!-- images/videos -->
+
+      // <!-- other facilities -->
+          .other-facilities{
+              margin: 10px 0 10px 0;
+
+              .other-facilities-icon-checkbox-container{
+                    margin: 10px 0 10px 0;
+                .check-box-container{
+                  margin: 0 0 0 10px;
+                }
+              }
+          }
+
+
+}
