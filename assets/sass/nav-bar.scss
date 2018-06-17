@@ -1,0 +1,68 @@
+@import 'reset';
+@import url('https://fonts.googleapis.com/css?family=Jua');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+// mixins
+@mixin transition($value) {
+  -webkit-transition: $value;
+     -moz-transition: $value;
+      -ms-transition: $value;
+      -o-transition: $value;
+      transition: $value ;
+}
+
+body{
+  background-color: #efefef;
+}
+
+.navbar{
+  border-color: transparent;
+  background-color: white;
+  .container{
+        //brandname
+        .navbar-brand{
+            font-family: 'Jua', sans-serif;
+          padding: 0px;
+          text-decoration: none;
+          color: #292c32;
+          font-size: 28px;
+
+            span{
+              font-size: 14px;
+              color: #d94c4d;
+               
+            }
+        }
+        //links navbar
+    ul{
+      li{
+        a{
+          font-size: 14px;
+          color: #292c32;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 500;
+          text-transform: uppercase;
+
+        }
+        a:hover{
+      color: #d94c4d;
+      @include transition(ease-in-out 0.4s);
+
+        }
+      }
+    }
+
+
+    // hamburger svg
+    .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(217,76,77)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+          }
+
+      .navbar-toggler {
+          border-color: rgb(217,76,77);
+
+          }
+
+  }
+}

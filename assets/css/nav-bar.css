@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Jua");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body, html {
+  height: 100%;
+  margin: 0; }
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.pd-0 {
+  padding: 0px; }
+
+.md-0 {
+  margin: 0px; }
+
+body {
+  background-color: #efefef; }
+
+.navbar {
+  border-color: transparent;
+  background-color: white; }
+  .navbar .container .navbar-brand {
+    font-family: 'Jua', sans-serif;
+    padding: 0px;
+    text-decoration: none;
+    color: #292c32;
+    font-size: 28px; }
+    .navbar .container .navbar-brand span {
+      font-size: 14px;
+      color: #d94c4d; }
+  .navbar .container ul li a {
+    font-size: 14px;
+    color: #292c32;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase; }
+  .navbar .container ul li a:hover {
+    color: #d94c4d;
+    -webkit-transition: ease-in-out 0.4s;
+    -moz-transition: ease-in-out 0.4s;
+    -ms-transition: ease-in-out 0.4s;
+    -o-transition: ease-in-out 0.4s;
+    transition: ease-in-out 0.4s; }
+  .navbar .container .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(217,76,77)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+  .navbar .container .navbar-toggler {
+    border-color: #d94c4d; }
+
+/*# sourceMappingURL=nav-bar.css.map */
