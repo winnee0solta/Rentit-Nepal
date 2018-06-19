@@ -1,0 +1,123 @@
+// Rentit-Nepal.
+@import 'nav-bar';
+@import 'footer';
+@import 'fonts';
+
+
+body{
+  background-color:#fff;
+  font-family: 'Source Sans Pro',sans-serif,Calibri,helvetica,Cantarell,arial,tahoma,verdana;
+
+}
+// search box
+.search-box-container{
+  /* The image used */
+  background-image: url("../images/polygon-background.jpg");
+  /* Full height */
+  height: 80%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+@media only screen and (max-width :600px){
+  .search-box-container{
+      height: 60%;
+  }
+}
+
+// featured
+
+
+// why use rentit
+#why-use-rentit{
+
+  .homepage-caption-container{
+margin: 30px 0 0 0;
+    display: block;
+    text-align: center;
+    color: #666;
+    .homepage-caption-header{
+
+      line-height: 1.428571429;
+      background: 0 0;
+      text-transform: capitalize;
+      font-size: 28px;
+      font-weight: 400;
+      font-family: 'Source Sans Pro',sans-serif,Calibri,helvetica,Cantarell,arial,tahoma,verdana;
+
+
+      }
+  }
+
+
+  .rn-info-item {
+      height: 250px;
+      overflow: hidden;
+      position: relative;
+      background: #fff;
+      border-radius: 3px;
+      padding: 0 20px;
+  }
+  .rn-info-item a {
+      text-align: left;
+      width: 100%;
+      height: 75%;
+      display: block;
+      color: #333;
+      position: relative;
+      transition: all .25s ease-out 0s;
+  }
+  a:hover {
+     text-decoration: none;
+  }
+  .rn-info-icon {
+      font-size: 50px;
+      color: #909496;
+      opacity: .8;
+      line-height: 90px;
+      height: 90px;
+      left: 0;
+      top: 0;
+  }
+  .rn-info-content{
+    h4 {
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0 20px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 14px;
+        color: #424d56;
+        padding: 10px 25% 20px;
+    }
+  }
+
+
+
+  .rn-info-content, .rn-info-icon, .rn-rentalagreement .row {
+      text-align: center;
+  }
+  .avoid_broker, .free_listing, .shortlist_visit {
+      background-repeat: no-repeat;
+  }
+
+  .avoid_broker {
+      background-image: url('../images/icons/nobroker.png');
+      background-position: 48%;
+  }
+
+  .free_listing {
+      background-image: url('../images/icons/lists.png');
+      background-position: 48%;
+  }
+  .shortlist_visit {
+      background-image: url('../images/icons/house.png');
+      background-position: 48%;
+  }
+
+}

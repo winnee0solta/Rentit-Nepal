@@ -6,14 +6,18 @@
   <div class="row _footer ">
     <!-- INTRO -->
     <div class="col-md-4 intro">
-        <h2>Rentit</h2>
-        <img src="../images/icons/logo-rentit.png" class="img-fluid img-responsive" alt="Logo-Rentit-Nepal"><br>
+        <h3
+>Rentit</h3
+>
+        <img src="../assets/images/icons/logo-rentit.png" class="img-fluid img-responsive" alt="Logo-Rentit-Nepal"><br>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
     </div>
 
     <!-- company -->
     <div class="col-md-4 company-details ">
-      <h2>Company</h2>
+      <h3
+>Company</h3
+>
       <ul>
         <li><a href="">About us</a></li>
         <li><a href="">Team</a></li>
@@ -26,7 +30,9 @@
 
     <!-- contact us -->
     <div class="col-md-4 contact-us">
-      <h2>Contact Us</h2>
+      <h3
+>Contact Us</h3
+>
       <table>
         <tr>
           <td>Phone :</td>

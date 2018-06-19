@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+@import url("https://fonts.googleapis.com/css?family=Jua");
+body, html {
+  height: 100%;
+  margin: 0; }
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.pd-0 {
+  padding: 0px; }
+
+.md-0 {
+  margin: 0px; }
+
+.margin-top-50 {
+  margin-top: 50px !important; }
+
+._card {
+  display: flex;
+  background-color: #292c32;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; }
+
+.auth-container {
+  /* The image used */
+  background-image: url("../../images/polygon-background.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'PT Sans', sans-serif; }
+  .auth-container .login-form-container {
+    padding: 0px;
+    margin: 40px 0 0 0px;
+    color: rgba(255, 255, 255, 0.65); }
+    .auth-container .login-form-container .auth-logo-top {
+      text-align: center; }
+      .auth-container .login-form-container .auth-logo-top img {
+        width: 60px;
+        height: 60px; }
+      .auth-container .login-form-container .auth-logo-top .logo-top {
+        margin: 10px 0 10px 0;
+        font-family: 'Jua', sans-serif;
+        font-size: 1.6rem;
+        color: #efefef; }
+    .auth-container .login-form-container .login-form {
+      padding: 35px; }
+      .auth-container .login-form-container .login-form .welcome-back {
+        text-align: center;
+        font-size: 32px;
+        font-weight: lighter;
+        margin: 0 0 20px 0; }
+      .auth-container .login-form-container .login-form .form-group {
+        margin: 0 0 20px 0; }
+        .auth-container .login-form-container .login-form .form-group label {
+          text-transform: uppercase;
+          font-size: 12px;
+          font-weight: bolder; }
+        .auth-container .login-form-container .login-form .form-group input {
+          color: rgba(255, 255, 255, 0.65);
+          border: 0.5px solid #efefef;
+          background-color: #282828; }
+        .auth-container .login-form-container .login-form .form-group input:hover {
+          border: 0.5px solid black; }
+      .auth-container .login-form-container .login-form .forget-pwd {
+        color: #D85969;
+        font-family: 'Jua', sans-serif;
+        font-size: 14px;
+        margin: 0 0 10px 0; }
+        .auth-container .login-form-container .login-form .forget-pwd a {
+          color: #D85969;
+          text-decoration: none; }
+        .auth-container .login-form-container .login-form .forget-pwd a:hover {
+          text-decoration: underline; }
+      .auth-container .login-form-container .login-form .need-account {
+        color: rgba(216, 89, 105, 0.9);
+        font-family: 'Jua', sans-serif;
+        font-size: 14px;
+        margin: 10px 0 10px 0; }
+        .auth-container .login-form-container .login-form .need-account a {
+          color: #D85969;
+          text-decoration: none; }
+        .auth-container .login-form-container .login-form .need-account a:hover {
+          text-decoration: underline; }
+      .auth-container .login-form-container .login-form button {
+        font-family: 'Jua', sans-serif;
+        background-color: #D85969;
+        color: white;
+        border: 0;
+        padding: 5px; }
+      .auth-container .login-form-container .login-form button:hover {
+        background-color: white;
+        color: #D85969;
+        -webkit-transition: ease-in-out 0.4s;
+        -moz-transition: ease-in-out 0.4s;
+        -ms-transition: ease-in-out 0.4s;
+        -o-transition: ease-in-out 0.4s;
+        transition: ease-in-out 0.4s;
+        border-color: black; }
+
+/*# sourceMappingURL=auth-login.css.map */

@@ -1,0 +1,81 @@
+body, html {
+  height: 100%;
+  margin: 0; }
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.pd-0 {
+  padding: 0px; }
+
+.md-0 {
+  margin: 0px; }
+
+.margin-top-50 {
+  margin-top: 50px !important; }
+
+body {
+  background-color: #efefef; }
+
+._card {
+  display: flex;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 30px; }
+
+.main-form-container .icon-container {
+  margin: 10px 0 10px 0; }
+.main-form-container .field-titles {
+  font-size: 16px; }
+.main-form-container .locality {
+  margin: 10px 0 10px 0; }
+  .main-form-container .locality a {
+    color: black;
+    font-size: 20px; }
+.main-form-container .bhk-type {
+  margin: 10px 0 10px 0; }
+  .main-form-container .bhk-type .bhk .bhk-inputfield {
+    margin-bottom: 15px; }
+  .main-form-container .bhk-type .type {
+    margin: 10px 0 10px 0; }
+    .main-form-container .bhk-type .type .type-dropdown-container {
+      margin: 10px 0 10px 0; }
+.main-form-container .furnishing-area {
+  margin: 10px 0 10px 0; }
+  .main-form-container .furnishing-area .furnishing {
+    margin: 10px 0 10px 0; }
+    .main-form-container .furnishing-area .furnishing .furnishing-dropdown-container {
+      margin: 10px 0 10px 0; }
+  .main-form-container .furnishing-area .area .area-inputfield {
+    margin-bottom: 15px; }
+.main-form-container .tenants {
+  margin: 10px 0 10px 0; }
+  .main-form-container .tenants .tenants-icon-container {
+    margin: 10px 0 10px 0; }
+  .main-form-container .tenants .check-boxes {
+    margin: 10px 0 10px 0; }
+.main-form-container .rent-deposit {
+  margin: 10px 0 10px 0; }
+  .main-form-container .rent-deposit .rent {
+    margin: 10px 0 10px 0; }
+  .main-form-container .rent-deposit .deposit {
+    margin: 10px 0 10px 0; }
+.main-form-container .description {
+  margin: 10px 0 10px 0; }
+.main-form-container .owner-details {
+  margin: 10px 0 10px 0; }
+  .main-form-container .owner-details .details-contacts {
+    padding: 20px; }
+.main-form-container .other-facilities {
+  margin: 10px 0 10px 0; }
+  .main-form-container .other-facilities .other-facilities-icon-checkbox-container {
+    margin: 10px 0 10px 0; }
+    .main-form-container .other-facilities .other-facilities-icon-checkbox-container .check-box-container {
+      margin: 0 0 0 10px; }
+
+/*# sourceMappingURL=post-rent-form.css.map */

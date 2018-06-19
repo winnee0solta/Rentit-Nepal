@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Jua");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+._footer .intro, ._footer .company-details, ._footer .contact-us {
+  padding: 20px; }
+
+._footer {
+  font-family: 'Source Sans Pro',sans-serif,Calibri,helvetica,Cantarell,arial,tahoma,verdana;
+  padding: 20px;
+  background-color: #292c32;
+  color: #efefef; }
+  ._footer h3 {
+    font-weight: 300;
+    font-family: 'Source Sans Pro',sans-serif,Calibri,helvetica,Cantarell,arial,tahoma,verdana; }
+  ._footer .intro img {
+    padding: 10px;
+    width: 100px;
+    height: 100px; }
+  ._footer .intro p {
+    font-family: 'Source Sans Pro',sans-serif,Calibri,helvetica,Cantarell,arial,tahoma,verdana;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 25% 20px; }
+  ._footer .company-details h3 {
+    text-align: center; }
+  ._footer .company-details ul {
+    padding: 10px 25% 20px; }
+    ._footer .company-details ul li a {
+      font-size: 14px;
+      text-decoration: none;
+      color: #efefef; }
+    ._footer .company-details ul li a:hover {
+      color: #d94c4d;
+      -webkit-transition: ease-in-out 0.7s;
+      -moz-transition: ease-in-out 0.7s;
+      -ms-transition: ease-in-out 0.7s;
+      -o-transition: ease-in-out 0.7s;
+      transition: ease-in-out 0.7s; }
+  ._footer .contact-us {
+    font-size: 14px; }
+    ._footer .contact-us ._socialfeeds {
+      padding: 10px 25% 20px; }
+      ._footer .contact-us ._socialfeeds table {
+        padding: 10px 25% 20px; }
+        ._footer .contact-us ._socialfeeds table td {
+          font-size: 14px; }
+      ._footer .contact-us ._socialfeeds a i {
+        padding-right: 6px;
+        text-decoration: none;
+        color: #d94c4d; }
+      ._footer .contact-us ._socialfeeds i:hover {
+        -webkit-transition: ease-in-out 0.6s;
+        -moz-transition: ease-in-out 0.6s;
+        -ms-transition: ease-in-out 0.6s;
+        -o-transition: ease-in-out 0.6s;
+        transition: ease-in-out 0.6s;
+        color: #efefef; }
+
+.copy-right-tag {
+  font-family: 'Source Sans Pro',sans-serif,Calibri,helvetica,Cantarell,arial,tahoma,verdana;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  font-weight: 700; }
+
+/*# sourceMappingURL=footer.css.map */
