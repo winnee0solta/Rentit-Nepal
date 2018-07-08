@@ -3,29 +3,23 @@
 <head>
   <meta charset="utf-8">
   <title>Rentit-Nepal</title>
-  <link rel="stylesheet" href="../assets/css/master.css">
+  <link rel="stylesheet" href="css/master.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--===============================================================================================-->
-  <link rel="icon" type="image/png" href="../assets/images/icons/logo-rentit.png"/>
+  <link rel="icon" type="image/png" href="../images/icons/logo-rentit.png"/>
   <!--===============================================================================================-->
   <!-- Bootstrap CSS CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <!-- Our auth-login  CSS -->
-  <link rel="stylesheet" type="text/css" href="../assets/css/post-rent-form.css">
+  <link rel="stylesheet" type="text/css" href="../css/post-rent-form.css">
   <!-- Scrollbar Custom CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
   <!-- fontawesome cdn -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-
-  <!-- Bootstrap 4 DatePicker -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-  <link href="https://cdn.jsdelivr.net/npm/gijgo@1.9.6/css/gijgo.min.css" rel="stylesheet" type="text/css" />
-
   <!--===============================================================================================-->
-<!-- popper.js -->
-<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
-<!--===============================================================================================-->
+  <!-- popper.js -->
+  <script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+  <!--===============================================================================================-->
 </head>
 <body>
 
@@ -53,7 +47,7 @@
                 <a href=""><i class="fas fa-map-marker "  title="Locality"></i></a>
                 <span class="field-titles">Locality</span>
               </div>
-              <div class="col-md-10 pd-0 md-0">
+              <div class="col-md-10  pd-0 md-0">
                 <input type="text" class="form-control">
               </div>
             </div>
@@ -72,152 +66,334 @@
               </div>
             </div>
 
-              <!-- type  -->
+            <!-- type  -->
             <div class="row type">
-                  <div class="col-md-2 pd-0 md-0">
-                    <!-- icon -->
-                    <a href=""><i class="fas fa-map-marker "  title=""></i></a>
-                    <span class="field-titles">Property Type</span>
-                  </div>
-                  <div class="col-md-4 pd-0 md-0">
-                      <!-- dropdown -->
-                      <div class="dropdown type-dropdown-container">
-                        <button type="button" class="btn default dropdown-toggle col-md-12" data-toggle="dropdown">
-                          Select type
-                        </button>
-                        <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#">Apartment</a>
-                          <a class="dropdown-item" href="#">Residental House</a>
-                          <a class="dropdown-item" href="#">Rooms</a>
-                          <a class="dropdown-item" href="#">Office</a>
-                          <a class="dropdown-item" href="#">Shop</a>
-                          <a class="dropdown-item" href="#">Complex</a>
-                          <a class="dropdown-item" href="#">Studio</a>
-                          <a class="dropdown-item" href="#">Hostel</a>
-
-                        </div>
-                      </div>
-                  </div>
+              <div class="col-md-2 pd-0 md-0">
+                <!-- icon -->
+                <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+                <span class="field-titles">Type</span>
+              </div>
+              <div class="col-md-4 col-md-2 pd-0 md-0">
+                <!-- select type -->
+                <div class="form-group type-dropdown-container">
+                  <select class="form-control" id="sel1" name="sellist1">
+                    <option>Apartment</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                  </select>
+                </div>
+              </div>
             </div>
 
-          <!-- for furnishing  -->
-
+          <!-- for furnishing and area -->
+          <div class="furnishing-area">
+            <!-- furnishing  -->
             <div class="row furnishing">
-                  <div class="col-md-2 pd-0 md-0">
-                    <!-- icon -->
-                    <a href=""><i class="fas fa-map-marker "  title=""></i></a>
-                    <span class="field-titles">Furnishing</span>
-                  </div>
-                  <div class="col-md-10 pd-0 md-0">
-                      <!-- radio -->
-                      <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                        <label class="form-check-label" for="inlineRadio1">Furnished</label>
-                      </div>
-                      <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                        <label class="form-check-label" for="inlineRadio2">Semifurnished</label>
-                      </div>
-                      <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                        <label class="form-check-label" for="inlineRadio3">Unfurnished</label>
-                      </div>
-                  </div>
+              <div class="col-md-2 pd-0 md-0">
+                <!-- icon -->
+                <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+                <span class="field-titles">Furnishing</span>
+              </div>
+              <div class="col-md-4 col-md-2 pd-0 md-0">
+                <!-- select furnishing type-->
+                <div class="form-group furnishing-dropdown-container">
+                  <select class="form-control" id="sel1" name="sellist1">
+                    <option>UnFurnished</option>
+                    <option>Furnished</option>
+                  </select>
+                </div>
+              </div>
             </div>
             <!-- area -->
             <div class="row area">
               <div class="col-md-2 pd-0 md-0 icon-container">
                 <!-- icon -->
                 <a href=""><i class="fas fa-map-marker "  title=""></i></a>
-                <span class="field-titles">Property Area</span>
+                <span class="field-titles">Area</span>
               </div>
               <div class="col-md-4 pd-0 md-0 area-inputfield">
                 <input type="text" class="form-control">
               </div>
             </div>
+          </div>
 
-
-
-
-
-            <!-- Tenants -->
-          <div class="tenants-area">
-
-            <div class="row tenants">
-                  <div class="col-md-2 pd-0 md-0">
-                    <!-- icon -->
-                    <a href=""><i class="fas fa-map-marker "  title=""></i></a>
-                    <span class="field-titles">Tenants</span>
-                  </div>
-                  <div class="col-md-10 pd-0 md-0">
-                      <!-- Checkbox -->
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                      <label class="form-check-label" for="inlineCheckbox1">Family</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                      <label class="form-check-label" for="inlineCheckbox2">Bachelor</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
-                      <label class="form-check-label" for="inlineCheckbox3">Company</label>
-                    </div>
-                  </div>
-            </div>
-
-
-            <!-- Price -->
-            <div class="row area">
-              <div class="col-md-2 pd-0 md-0 icon-container">
+          <!-- tenants -->
+          <div class="tenants">
+            <div class="row">
+              <div class="col-md-2 pd-0 md-0 tenants-icon-container">
                 <!-- icon -->
                 <a href=""><i class="fas fa-map-marker "  title=""></i></a>
-                <span class="field-titles">Price</span>
+                <span class="field-titles">Tenants</span>
               </div>
-              <div class="col-md-4 pd-0 md-0 area-inputfield">
-                <input type="text" class="form-control">
-              </div>
-              <div class="col-md-6">
-                  <!-- radio -->
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                    <label class="form-check-label" for="inlineRadio1">Negotiable</label>
+              <div class="col-md-8 pd-0 md-0 rent-inputfield">
+                <!-- checkboxes -->
+                <div class="check-boxes">
+                  <!-- family -->
+                  <div class="form-check-inline">
+                    <label class="form-check-label" for="check1">
+                      <input type="checkbox" class="form-check-input" id="check1" name="family" value="Family" >Family
+                    </label>
                   </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                    <label class="form-check-label" for="inlineRadio2">Non-Negotiable</label>
+                  <!-- bachelors -->
+                  <div class="form-check-inline">
+                    <label class="form-check-label" for="check2">
+                      <input type="checkbox" class="form-check-input" id="check2" name="bachelors" value="Family" >Bachelors
+                    </label>
+                  </div>
+                  <!-- company -->
+                  <div class="form-check-inline">
+                    <label class="form-check-label" for="check3">
+                      <input type="checkbox" class="form-check-input" id="check3" name="company" value="Company" >Company
+                    </label>
+                  </div>
+                  <!-- Any -->
+                  <div class="form-check-inline">
+                    <label class="form-check-label" for="check4">
+                      <input type="checkbox" class="form-check-input" id="check4" name="any" value="Any" checked>Any
+                    </label>
+                  </div>
                 </div>
               </div>
             </div>
-            <!-- Deposite -->
-            <div class="row area">
+          </div>
+
+          <!-- rent deposit-->
+          <div class="rent-deposit">
+            <!-- rent price -->
+            <div class="row rent">
               <div class="col-md-2 pd-0 md-0 icon-container">
                 <!-- icon -->
                 <a href=""><i class="fas fa-map-marker "  title=""></i></a>
-                <span class="field-titles">Deposite</span>
+                <span class="field-titles">Rent Price</span>
               </div>
-              <div class="col-md-4 pd-0 md-0 area-inputfield">
-                <input type="text" class="form-control">
+              <div class="col-md-2 pd-0 md-0 rent-inputfield">
+                <input type="number" class="form-control">
+              </div>
+              <div class="col-md-4 pd-0 md-0">
+                <!-- select -->
+                <div class="form-group rent-dropdown-container">
+                  <select class="form-control" id="sel1" name="sellist1">
+                    <option>Fixed</option>
+                    <option>Negotiable</option>
+                  </select>
+                </div>
               </div>
             </div>
-
-            <div class="row area">
+            <!-- deposit -->
+            <div class="row deposit">
               <div class="col-md-2 pd-0 md-0 icon-container">
                 <!-- icon -->
                 <a href=""><i class="fas fa-map-marker "  title=""></i></a>
-                <span class="field-titles">Expiry Date</span>
+                <span class="field-titles">Deposit</span>
               </div>
-              <div class="col-md-4 pd-0 md-0 area-inputfield">
-                <input id="datepicker"  />
+              <div class="col-md-4 pd-0 md-0 deposit-inputfield">
+                <input type="number" class="form-control">
               </div>
+            </div>
+          </div>
+
+          <!-- expires in -->
+
+          <!-- description -->
+          <div class="description">
+            <div class="row">
+              <div class="col-md-2 pd-0 md-0 icon-container">
+                <span class="field-titles">Description</span>
+              </div>
+              <div class="col-md-4 pd-0 md-0 deposit-inputfield">
+                <div class="form-group">
+                    <textarea class="form-control" rows="5" id="description"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- owner details -->
+          <div class="owner-details">
+
+            <div class="row">
+              <div class="col-md-2 pd-0 md-0 icon-container">
+                <span class="field-titles">Owner Details</span>
+              </div>
+            </div>
+
+            <div class="details-contacts">
+
+              <!-- email -->
+              <div class="row">
+                <div class="col-md-2 pd-0 md-0 icon-container">
+                  <span class="field-titles">Email</span>
+                </div>
+                <div class="col-md-4 pd-0 md-0 email-inputfield">
+                  <input type="email" class="form-control">
+                </div>
+              </div>
+              <!-- Phoneno -->
+              <div class="row">
+                <div class="col-md-2 pd-0 md-0 icon-container">
+                  <span class="field-titles">Phone No</span>
+                </div>
+                <div class="col-md-4 pd-0 md-0 phoneo-inputfield">
+                  <input type="number" class="form-control">
+                </div>
+              </div>
+              <!-- Address -->
+              <div class="row">
+                <div class="col-md-2 pd-0 md-0 icon-container">
+                  <span class="field-titles">Address</span>
+                </div>
+                <div class="col-md-4 pd-0 md-0 address-inputfield">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+              <!-- Others -->
+              <div class="row">
+                <div class="col-md-2 pd-0 md-0 icon-container">
+                  <span class="field-titles">Others</span>
+                </div>
+                <div class="col-md-4 pd-0 md-0 others-inputfield">
+                  <div class="form-group">
+                      <textarea class="form-control" rows="3" id="others"></textarea>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
 
 
+          </div>
+
+          <!-- images/videos -->
+
+          <!-- other facilities -->
+          <div class="other-facilities">
+            <div class="row">
+              <div class="col-md-2 pd-0 md-0 icon-container">
+                <span class="field-titles">Other facilities</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <!-- water -->
+                <div class="other-facilities-icon-checkbox-container">
+                  <!-- icon -->
+                    <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+                  <!-- checkbox -->
+                  <div class="form-check-inline check-box-container">
+                    <label class="form-check-label" for="otherfacilities1">
+                      <input type="checkbox" class="form-check-input" id="otherfacilities1" name="water" value="Water" >Water
+                    </label>
+                  </div>
+                </div>
+                <!-- bathroom/toilet -->
+                <div class="other-facilities-icon-checkbox-container">
+                  <!-- icon -->
+                    <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+                  <!-- checkbox -->
+                  <div class="form-check-inline check-box-container">
+                    <label class="form-check-label" for="otherfacilities2">
+                      <input type="checkbox" class="form-check-input" id="otherfacilities2" name="bathroom-toilet" value="Bathroom-Toilet" >Bathroom/Toilet
+                    </label>
+                  </div>
+                </div>
+                <!-- electricity -->
+                <div class="other-facilities-icon-checkbox-container">
+                  <!-- icon -->
+                    <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+                  <!-- checkbox -->
+                  <div class="form-check-inline check-box-container">
+                    <label class="form-check-label" for="otherfacilities3">
+                      <input type="checkbox" class="form-check-input" id="otherfacilities3" name="electricity" value="Electricity" >Electricity
+                    </label>
+                  </div>
+                </div>
+                <!-- internet -->
+                <div class="other-facilities-icon-checkbox-container">
+                  <!-- icon -->
+                    <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+                  <!-- checkbox -->
+                  <div class="form-check-inline check-box-container">
+                    <label class="form-check-label" for="otherfacilities4">
+                      <input type="checkbox" class="form-check-input" id="otherfacilities4" name="internet" value="Internet" >Internet
+                    </label>
+                  </div>
+                </div>
+                <!-- guard -->
+                <div class="other-facilities-icon-checkbox-container">
+                  <!-- icon -->
+                    <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+                  <!-- checkbox -->
+                  <div class="form-check-inline check-box-container">
+                    <label class="form-check-label" for="otherfacilities5">
+                      <input type="checkbox" class="form-check-input" id="otherfacilities5" name="guard" value="Guard" >Guard
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <!-- Hospital -->
+                <div class="other-facilities-icon-checkbox-container">
+                  <!-- icon -->
+                    <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+                  <!-- checkbox -->
+                  <div class="form-check-inline check-box-container">
+                    <label class="form-check-label" for="otherfacilities6">
+                      <input type="checkbox" class="form-check-input" id="otherfacilities6" name="hospital" value="Hospital" >Hospital
+                    </label>
+                  </div>
+                </div>
+                <!-- Parking-->
+                <div class="other-facilities-icon-checkbox-container">
+                  <!-- icon -->
+                    <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+                  <!-- checkbox -->
+                  <div class="form-check-inline check-box-container">
+                    <label class="form-check-label" for="otherfacilities7">
+                      <input type="checkbox" class="form-check-input" id="otherfacilities7" name="parking" value="Parking" >Parking
+                    </label>
+                  </div>
+                </div>
+                <!-- Park -->
+                <div class="other-facilities-icon-checkbox-container">
+                  <!-- icon -->
+                    <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+                  <!-- checkbox -->
+                  <div class="form-check-inline check-box-container">
+                    <label class="form-check-label" for="otherfacilities8">
+                      <input type="checkbox" class="form-check-input" id="otherfacilities8" name="park" value="Park" >Park
+                    </label>
+                  </div>
+                </div>
+                <!-- Highway -->
+                <div class="other-facilities-icon-checkbox-container">
+                  <!-- icon -->
+                    <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+                  <!-- checkbox -->
+                  <div class="form-check-inline check-box-container">
+                    <label class="form-check-label" for="otherfacilities9">
+                      <input type="checkbox" class="form-check-input" id="otherfacilities9" name="highway" value="Highway" >Highway
+                    </label>
+                  </div>
+                </div>
+                <!-- Floors -->
+                <div class="other-facilities-icon-checkbox-container">
+                  <!-- icon -->
+                    <a href=""><i class="fas fa-map-marker "  title=""></i></a>
+                  <!-- checkbox -->
+                  <div class="form-check-inline check-box-container">
+                    <label class="form-check-label" for="otherfacilities10">
+                      <input type="checkbox" class="form-check-input" id="otherfacilities10" name="floors" value="Floors" >Floors
+                    </label>
+                  </div>
+                </div>
 
 
-
-
+              </div>
+            </div>
+          </div>
 
         </form>
       </div>
